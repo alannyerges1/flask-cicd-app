@@ -25,7 +25,7 @@ jobs:
 
       - name: Run unit tests
         run: |
-          pytest app/tests/
+          pytest app/
 
       - name: Build Docker image
         run: |
