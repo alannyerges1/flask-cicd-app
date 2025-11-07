@@ -4,4 +4,4 @@ def test_home_route():
     client = app.test_client()
     response = client.get('/')
     assert response.status_code == 200
-    assert b"Welcome to the Flask CI/CD App!" in response.data
+    assert b"CI/CD pipeline test - new version deployed manually!!!" in response.data
